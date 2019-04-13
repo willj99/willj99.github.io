@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(131deg, #55c1a5, #55a4c1, #555cc1, #9155c1, #c15589, #c15555);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+li, td {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 14px;
+    list-style: none;
+    padding-top: 5px;
+    margin-bottom:2px;
+    padding-bottom: 5px;
+
+    border-right: 2px solid rgba(255, 255, 255, 0.144);
+    border-left: 1px solid rgba(255, 255, 255, 0.144);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.144);
+}
+.heading {font-size: 18px; margin-top:20px; border-top-right-radius: 15px; background-color: rgba(255, 255, 255, 0.644); color:black;}
+#modBar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(24,24,24,0.56);
+    border-right: 1px solid rgba(255, 255, 255, 0.444);
+    padding-right: 5px;
+    display:none;
+}
+.item:hover {
+    background-color:rgba(24, 24, 24, 0.466);
+    transform: scale(1.02);
+}
+
+#modBar ul {
+    padding-left:20px;
+    padding-right: 18px;
+    text-align: center;
+}
+
+    @-webkit-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 50%}
+        50%{background-position:100% 50%}
+        100%{background-position:0% 50%}
+    }
+
+
+#titleText {
+margin-left: 100px;
+margin-right: 100px;
+width: 600px;
+}
+
+#myname {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+#mydesc  {font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; display:none; text-rendering: optimizeLegibility;}
+
+#wrapper {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    width: 825px;
+    margin-top: 20%;
+    
+    display:flex;
+}
+
+#content {
+    
+    border-radius:5px;
+    border: 1px solid rgba(24,24,24,0.16);
+    padding: 15px;
+    
+    color: white;
+    background-color: rgba(24,24,24,0.36);
+    
+}
+
+
+
+#content:hover {
+    transform: scale(1.08);
+}
+
+#YouTube {
+    display:inline-block;
+    left: 1px;
+}
+
+#DonutTeam {
+    display:inline-block;
+}
+
+#extralinks
+{
+    position:absolute;
+    visibility: hidden;
+    right: 850px;
+    bottom: 5px;
+    display:inline-block;
+    width: 300px;
+}
+
+
