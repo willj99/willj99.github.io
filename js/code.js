@@ -1,7 +1,7 @@
 
 // Globals.
 var i = 0;
-var strings = ["Will's Non-Github Mod Repository", "Click to see all downloadable content and links", "Click to close context menu"];
+var strings = ["Will's Interactive Mod Repository", "Click to see all downloadable content and links", "Click to close context menu"];
 var checkstate = 0; // Boolean for loadBar function, checks if mods bar is active.
 
 function type()
